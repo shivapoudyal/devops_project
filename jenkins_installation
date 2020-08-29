@@ -30,6 +30,9 @@ deb https://pkg.jenkins.io/debian-stable binary/
 ******************************** Now, Update the package & Install Jenkins ***********************************
  sudo apt-get update
  sudo apt-get install jenkins
+ 
+******************************** Add JDK in JENKINS ***********************************
+go to ->manage jenkins->Global Tool Configuration->add jdk (jdk name = JAVA_HOME, JAVA HOME = jdk path)
 
 
 Jenkins, is installed, it runs to 8080 port,
