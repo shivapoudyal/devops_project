@@ -1,0 +1,23 @@
+******************************* Intall JAVA & Set home_path ***************************
+
+sudo apt install default-jre            
+sudo apt install openjdk-11-jre-headless
+sudo apt install openjdk-8-jre-headless
+
+
+******************************* Setting the JAVA_HOME Environment Variable ************************
+ sudo update-alternatives --config java
+
+********Copy the path from your preferred installation and then open /etc/environment using nano or your favorite text editor ********
+
+sudo nano /etc/environment
+
+**********At the end of this file, add the following line, making sure to replace the highlighted path with your own copied path.
+/etc/environment **********
+JAVA_HOME="/usr/lib/jvm/java-8-oracle"
+
+*************************************** Save and exit the file, and reload it *********************************
+source /etc/environment
+
+***********************You can now test whether the environment variable has been set by executing the following command ********************
+echo $JAVA_HOME
