@@ -10,6 +10,7 @@ sudo apt install openjdk-8-jre-headless
  sudo update-alternatives --config java
 
 ********Copy the path from your preferred installation and then open /etc/environment using nano or your favorite text editor ********
+
 sudo nano /etc/environment
 
 ********** put your copied desired java path into enviroment file, for eg- **********
