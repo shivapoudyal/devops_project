@@ -17,6 +17,7 @@ sudo nano /etc/environment
 JAVA_HOME="/usr/lib/jvm/java-8-oracle"
 
 *************************************** Save and exit the file, and reload it *********************************
+
 source /etc/environment
 
 ***********************You can now test whether the environment variable has been set by executing the following command ********************
