@@ -37,6 +37,7 @@ deb https://pkg.jenkins.io/debian-stable binary/
 ******************************** Now, Update the package & Install Jenkins ***********************************
  
  sudo apt-get update
+ 
  sudo apt-get install jenkins
  
  Jenkins, is installed, it runs to 8080 port,
